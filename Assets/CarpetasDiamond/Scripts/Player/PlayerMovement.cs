@@ -23,10 +23,10 @@ public class PlayerMovement : MonoBehaviour
         characterController = GetComponent<CharacterController>(); // Obtener el componente CharacterController
     }
 
-    private void OnMove(InputValue value)
-    {
-        moveInput = value.Get<Vector2>();
-    }
+    //private void OnMove(InputValue value)
+    //{
+    //    moveInput = value.Get<Vector2>();
+    //}
 
     void Update()
     {
